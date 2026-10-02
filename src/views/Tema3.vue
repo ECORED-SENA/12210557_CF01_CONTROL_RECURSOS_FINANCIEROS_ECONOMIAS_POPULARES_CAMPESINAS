@@ -5,43 +5,38 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 3
-        h1 SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+        h1 Registro de compras, ventas y movimientos financieros
 
       Separador
       //- Inicio Tema3.1
       .row
         #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          h2 3.1 Compras de contado y a crédito
 
       Separador
       //- Inicio Tema3.2
       .row
         #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          h2 3.2 Ventas de contado y a crédito
 
       Separador
       //- Inicio Tema3.3
       .row
         #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.3 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          h2 3.3 Ingresos, egresos, cuentas por cobrar y cuentas por pagar
 
       Separador
       //- Inicio Tema3.4
       .row
         #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.4 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          h2 3.4 Registro manual de transacciones
 
       Separador
       //- Inicio Tema3.5
       .row
         #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.5 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+          h2 3.5 Registro mediante herramientas tecnológicas
 
-      Separador
-      //- Inicio Tema3.6
-      .row
-        #t_3_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 3.6 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 
 

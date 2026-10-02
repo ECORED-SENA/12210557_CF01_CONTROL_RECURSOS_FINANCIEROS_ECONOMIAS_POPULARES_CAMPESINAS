@@ -63,21 +63,21 @@
   &-1
     background-color: $color-primario
   &-2
-    background-color: #fffae4  
+    background-color: #F8ECDE  
   &-3
-    background-color: #e2fbfb
+    background-color: #3f566c
   &-4
-    background-color: #E9D5F8
+    background-color: #efd1ae
   &-5
-    background-color: #F0FDFD
+    background-color: #EAEDEF
   &-6
-    background-color: #fff7cb
+    background-color: #000
   &-7
-    background-color: #491a6d
+    background-color: #000
   &-8
-    background-color: #b8d1d8
+    background-color: #000
   &-9
-    background-color: #e9d5f8
+    background-color: #000
   &-10
     background-color: #000
 /**************************************************************/
@@ -116,7 +116,7 @@
 
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: black !important
+  color: white !important
   
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/banner_interno.png") !important
@@ -128,11 +128,12 @@
   position: relative
   display: inline-flex
   align-items: center
-  background-color: #FF9200
+  background-color: $color-acento-contenido
   border-radius: 30px
   padding-right: 16px
   padding-left: 52px
   min-height: 40px
+  
  
   @media screen and (max-width: $bp-min-md)
     padding-left: 0px
@@ -155,6 +156,7 @@
     margin: 0 15px 0 15px
     white-space: normal
     word-break: break-word
+    color: white !important
 
 /*Slideshows*/
 .bg-fondo
@@ -167,11 +169,11 @@
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: $color-acento-botones !important
 .slyder-a__bullets__item--active 
-  background-color: #71EDEF !important
-  border-color: #71EDEF
+  background-color: $color-acento-botones !important
+  border-color: $color-acento-botones
 .slyder-a__bullets__item
-  background-color: #71EDEF
-  border: 1px solid #71EDEF
+  background-color: $color-acento-botones
+  border: 1px solid $color-acento-botones
 .bloque-texto-b.color-secundario:before
   background-color: #CBE7E8
 .tarjeta-numerada.color-primario
@@ -461,15 +463,15 @@
 
 /*Audio*/
 .bg-custom-teal
-  background-color: #672499 !important 
+  background-color: #3F566C !important 
   position: relative
   overflow: hidden
   
 .bg-custom-dark-teal
-  background-color: #672499 !important
+  background-color: #3F566C !important
 
 .border-lemon
-  border: 4px solid #672499 !important
+  border: 4px solid #3F566C !important
   border-radius: 15px
 
 /*Fin Audio*/
@@ -639,3 +641,6 @@
 
 .pasos-a.color-acento-contenido .pasos-a__circle div
   color: $black
+
+.tabla-a th
+  color: white !important
