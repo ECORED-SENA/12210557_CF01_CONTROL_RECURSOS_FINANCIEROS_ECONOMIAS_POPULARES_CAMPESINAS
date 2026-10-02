@@ -5,7 +5,46 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 3
-        h1 Titulo de primer nivel
+        h1 SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+      Separador
+      //- Inicio Tema3.1
+      .row
+        #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.1 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      Separador
+      //- Inicio Tema3.2
+      .row
+        #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.2 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      Separador
+      //- Inicio Tema3.3
+      .row
+        #t_3_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.3 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      Separador
+      //- Inicio Tema3.4
+      .row
+        #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.4 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      Separador
+      //- Inicio Tema3.5
+      .row
+        #t_3_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.5 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+      Separador
+      //- Inicio Tema3.6
+      .row
+        #t_3_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 3.6 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
 
 </template>
 
