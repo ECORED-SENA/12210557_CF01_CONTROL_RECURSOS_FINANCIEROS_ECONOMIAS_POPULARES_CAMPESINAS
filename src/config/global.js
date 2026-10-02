@@ -1,8 +1,9 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
+    Name: 'Registro y control de operaciones financieras',
+    Description:
+      'El registro y control de las operaciones financieras permite reconocer los principios contables aplicables a la actividad económica, clasificar cuentas y registrar transacciones de forma manual o mediante herramientas tecnológicas. Integra el tratamiento de compras, ventas, inventarios, impuestos y comprobantes, lo que facilita la organización de la información del negocio y el seguimiento de los recursos en economías populares y campesinas.',
+    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
     imagenesDecorativasBanner: [
       {
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
         imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/banner-principal-decorativo-3.svg',
       },
     ],
   },
@@ -521,7 +526,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Carlos Julian Ramirez Benitez',
+          nombre: 'Jorge David Barbosa Losada',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

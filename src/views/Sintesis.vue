@@ -4,11 +4,12 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       .row.mb-5
         .col-12.ps-3(style="border-left: 10px solid #39A900;") 
-          h3.mb-1 Análisis de información financiera con inteligencia artificial
+          h3.mb-1 Control de recursos financieros para economías populares y campesinas
           p.mb-0 
             | Síntesis:
-            | fundamentos de inteligencia artificial (IA) para hechos económicos
-      p.mt-5 A continuación, se presenta una síntesis de la temática estudiada por el componente formativo.
+            | registro y control de operaciones financieras
+      p.mt-5 La síntesis integra los conceptos principales desarrollados en el componente formativo:
+
       .row.justify-content-center
         .col-lg-10.mb-5.bgs.p-4.brad
           figure
