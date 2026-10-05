@@ -60,6 +60,45 @@
                   td Compra y venta de mercancías, cobro por servicios, pagos de gastos y manejo de cuentas por cobrar y por pagar.
       //- FinTabla
       p(data-aos="fade-left") Seguidamente, se precisan algunas implicaciones de estos sectores para el registro y control financiero:
+      //- Inicio Tabla
+      .row.justify-content-center.mb-5(data-aos="fade-right")
+        .col-md-auto.col-lg-12
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 13.
+            span Diferencias entre ventas de contado y a crédito
+          .tabla-a
+            table
+              thead
+                tr
+                  th(style="width: 20%") Aspecto
+                  th(style="width: 40%") Venta de contado
+                  th(style="width: 40%") Venta a crédito
+              tbody
+                tr
+                  td Entrega del bien o servicio
+                  td Se realiza según lo acordado
+                  td Se realiza según lo acordado
+                tr
+                  td Pago
+                  td Se recibe al momento de la operación
+                  td Se recibe posteriormente
+                tr
+                  td Ingreso
+                  td Se reconoce cuando corresponde
+                  td Se reconoce cuando corresponde
+                tr
+                  td Efectivo o bancos
+                  td Aumenta inmediatamente
+                  td No aumenta al momento de la venta
+                tr
+                  td Cuenta por cobrar
+                  td Generalmente no se genera
+                  td Se genera un derecho de cobro
+                tr
+                  td Seguimiento posterior
+                  td Se verifica el pago recibido
+                  td Se controla el saldo y fecha de cobro
+      //- FinTabla
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
@@ -207,8 +246,8 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Información contable e información financiera
       //- Título nivel 3 - Imagen
-      .row.align-items-center.mb-5
-        .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .row.align-items-center.mb-5(data-aos="fade-right")
+        .col-12.col-lg-5.mb-4.mb-lg-0
           figure.mb-0
             img.mx-auto(src="@/assets/curso/temas/t1/img6.png", data-aos="zoom-in", style="width: 600px;")
         .col-12.col-lg-7(data-aos="fade-left")
@@ -338,7 +377,7 @@
       .row
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.3 Principios básicos de contabilidad
-      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img10.png')})` }")
         .bloque-texto-g__texto.p-4

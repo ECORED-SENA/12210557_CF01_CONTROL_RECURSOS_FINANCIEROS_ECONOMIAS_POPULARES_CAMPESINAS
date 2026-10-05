@@ -16,13 +16,13 @@
       .row
         #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.1 Concepto y función de las cuentas
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img2.png')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 Las operaciones de una unidad económica deben clasificarse para identificar sus recursos, obligaciones, patrimonio, ingresos, costos y gastos. Las cuentas contables agrupan movimientos de naturaleza similar y facilitan su registro, seguimiento y análisis. Comprender su estructura y naturaleza permite interpretar cómo cada transacción modifica la situación económica del negocio (Decreto 2420 Anexo 3, 2015). 
-      .row.align-items-center.mb-4
-        .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .row.align-items-center.mb-4(data-aos="fade-right")
+        .col-12.col-lg-5.mb-4.mb-lg-0
           figure.mb-0
             img.mx-auto(src="@/assets/curso/temas/t2/img3.png", data-aos="zoom-in", style="width: 600px;")
         .col-12.col-lg-7(data-aos="fade-left")
@@ -111,7 +111,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Estructura básica de una cuenta
       //- Título nivel 3 - Imagen
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img6.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -210,7 +210,7 @@
       .row
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.2 Activos, pasivos y patrimonio
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img8.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -256,7 +256,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Clasificación básica de los activos y pasivos
       //- Título nivel 3 - Imagen
-      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img9.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -304,7 +304,7 @@
       .row
         #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.3 Ingresos, costos y gastos
-      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img10.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -389,7 +389,7 @@
       .row
         #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.4 Naturaleza y movimiento de las cuentas
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img11.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -537,7 +537,7 @@
       .row
         #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 2.5 Clasificación de cuentas según las operaciones del negocio
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img15.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -549,7 +549,7 @@
       //- Título nivel 3 - Imagen
       p(data-aos="fade-left") Con fines pedagógicos, puede utilizarse la estructura tradicional del Plan Único de Cuentas para Comerciantes para comprender los niveles de clasificación contable. En esta organización, cada nivel permite avanzar desde una categoría general hasta una identificación más específica (Decreto 2650, 1993). Los siguientes niveles permiten reconocer esta organización progresiva:
       //- Linea de tiempo
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-right")
         .col-lg-8
           PasosA.color-acento-contenido.mb-4(tipo="n")
             .row.align-items-center
@@ -638,7 +638,7 @@
               img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
               h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Clasificación por grupos
             //- Título nivel 3 - Imagen
-      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img16.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -724,7 +724,7 @@
       //- Título nivel 3 - Imagen
       p(data-aos="fade-left") La clasificación de una operación requiere analizar primero su realidad económica y después determinar las cuentas que representa. No debe realizarse únicamente a partir del nombre de un documento o del movimiento de dinero. La siguiente secuencia permite realizar esta clasificación de manera ordenada:
       //- Linea de tiempo
-      .row.justify-content-center
+      .row.justify-content-center(data-aos="fade-right")
         .col-lg-8
           PasosA.color-acento-contenido.mb-4(tipo="n")
             .row.align-items-center
@@ -792,7 +792,4 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
-<style lang="sass"></style>
-<style lang="sass"></style>
 <style lang="sass"></style>
