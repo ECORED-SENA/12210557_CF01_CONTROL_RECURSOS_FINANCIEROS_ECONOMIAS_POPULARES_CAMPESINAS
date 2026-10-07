@@ -6,7 +6,7 @@
         .titulo-principal__numero
           span 2
         h1 Cuentas y estructura básica del registro
-      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
+      .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img1.png')})` }")
         .bloque-texto-g__texto.p-4
@@ -20,7 +20,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img2.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Las operaciones de una unidad económica deben clasificarse para identificar sus recursos, obligaciones, patrimonio, ingresos, costos y gastos. Las cuentas contables agrupan movimientos de naturaleza similar y facilitan su registro, seguimiento y análisis. Comprender su estructura y naturaleza permite interpretar cómo cada transacción modifica la situación económica del negocio (Decreto 2420 Anexo 3, 2015). 
+          p.mb-0 Las cuentas contables permiten identificar, clasificar y acumular información sobre operaciones con características económicas similares. Mediante ellas se organizan los movimientos que afectan los recursos, obligaciones, patrimonio, ingresos, costos y gastos, facilitando su seguimiento y la generación de información financiera útil (Decreto 2420 Anexo 3, 2015).
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-12.col-lg-5.mb-4.mb-lg-0
           figure.mb-0
@@ -107,7 +107,7 @@
                         img(src='@/assets/curso/temas/t2/img5.png', style="width: 300px", data-aos="zoom-in").m-auto
             //- Fin Carrusel
       //- Título nivel 3 - Imagen
-      .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
+      .titulo-tercer-nivel.mb-5(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Estructura básica de una cuenta
       //- Título nivel 3 - Imagen
@@ -196,7 +196,7 @@
         .col-12.col-lg-7(data-aos="fade-left")
           .p-2.mb-1
             p.mb-0 El siguiente caso permite diferenciar los elementos relacionados con la situación financiera de aquellos que intervienen en el resultado:
-          .bg-color-5.p-3
+          .bg-color-2.p-3
             p.fw-bold Ejemplo aplicado
             p El dinero disponible, las mercancías y una deuda con un proveedor corresponden a elementos de la situación financiera; mientras que una venta realizada y los gastos asociados con el funcionamiento corresponden a operaciones que intervienen en la determinación del resultado del periodo.
       .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade")
@@ -250,7 +250,7 @@
               p.bg-color-6.p-2.text-center.fw-bold Patrimonio = Activo − Pasivo
             .row.justify-content-center
             .col-lg-8
-              p Por ejemplo, si una unidad productiva posee recursos por $12.000.000 y tiene obligaciones pendientes por $4.500.000, su patrimonio corresponde a $7.500.000.
+              p Por ejemplo, si una unidad productiva posee recursos por $ 12.000.000 y tiene obligaciones pendientes por $ 4.500.000, su patrimonio corresponde a $ 7.500.000.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -355,8 +355,8 @@
           //- Bloque del ejemplo aplicado
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-3 Una unidad productiva registra durante el mes ingresos por $5.000.000, costos asociados con los productos vendidos por $3.000.000 y gastos de funcionamiento por $1.200.000. El resultado corresponde a:
-            p.mb-0 $5.000.000 – $3.000.000 – $1.200.000 = $800.000
+            p.mb-3 Una unidad productiva registra durante el mes ingresos por <b>$ 5.000.000</b>, costos asociados con los productos vendidos por <b>$ 3.000.000</b> y gastos de funcionamiento por <b>$ 1.200.000.</b> El resultado corresponde a:
+            p.mb-0 <b>$ 5.000.000 – $ 3.000.000 – $ 1.200.000 = $ 800.000</b>
           p.mb-4 Para organizar los valores que intervienen en el cálculo, se presenta su relación:
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -373,16 +373,16 @@
                   tbody
                     tr
                       td Ingresos por ventas
-                      td $5.000.000
+                      td $ 5.000.000
                     tr
                       td Menos: costos asociados con las ventas
-                      td $3.000.000
+                      td $ 3.000.000
                     tr
                       td Menos: gastos de funcionamiento
-                      td $1.200.000
+                      td $ 1.200.000
                     tr.fw-bold
                       td Resultado del periodo
-                      td $800.000
+                      td $ 800.000
           p.mb-0 Diferenciar ingresos, costos y gastos permite clasificar las operaciones y comprender cómo cada una interviene en el resultado de la actividad económica.
       Separador
       //- Inicio Tema2.4
@@ -410,8 +410,8 @@
             .col
               p.mb-0 Por ejemplo, cuando aumenta el dinero disponible, la cuenta de efectivo se registra por el débito porque pertenece a los activos. En cambio, cuando aumenta una deuda con un proveedor, la cuenta por pagar se registra por el crédito porque corresponde a un pasivo.
         .col-lg-5.d-flex
-          figure.mb-0.w-100
-            img.h-100.w-100(src='@/assets/curso/temas/t2/img12.png', alt='', style="object-fit: cover;")
+          figure.mb-0.w-100            
+            img(src='@/assets/curso/temas/t2/img12.png', alt='', style="width: 800px;" ).m-auto
       p(data-aos="fade-left") La siguiente relación permite identificar cómo aumentan y disminuyen los principales grupos de cuentas:
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
@@ -509,13 +509,13 @@
                       td Activo
                       td Aumenta
                       td Débito
-                      td $600.000
+                      td $ 600.000
                     tr
                       td Efectivo
                       td Activo
                       td Disminuye
                       td Crédito
-                      td $600.000
+                      td $ 600.000
           p.mb-0 Si la misma mercancía se adquiere a crédito, el análisis cambia: el inventario continúa aumentando y se registra por el débito, pero se genera una obligación con el proveedor, cuyo aumento se registra por el crédito. De igual manera, en una venta de contado aumenta el efectivo mediante un débito y el ingreso por ventas mediante un crédito.
       p(data-aos="fade-left") Estas situaciones evidencian la importancia de identificar la naturaleza de las cuentas antes de establecer cómo registrar una transacción.
             //- Título nivel 3 - Imagen
@@ -762,7 +762,7 @@
             p.mb-0 El siguiente ejemplo permite aplicar la secuencia de clasificación a una operación de compra a crédito:
           .bg-color-5.p-3            
             p.fw-bold Ejemplo aplicado 
-            p Si una productora campesina compra fertilizantes a crédito por $500.000, primero identifica la adquisición de un recurso destinado a su actividad y, al mismo tiempo, una obligación pendiente de pago. Así, deberá reconocer la cuenta correspondiente al recurso adquirido y la cuenta que representa la deuda con el proveedor. Este análisis permite clasificar la operación antes de realizar el registro contable.
+            p Si una productora campesina compra fertilizantes a crédito por <b>$ 500.000</b>, primero identifica la adquisición de un recurso destinado a su actividad y, al mismo tiempo, una obligación pendiente de pago. Así, deberá reconocer la cuenta correspondiente al recurso adquirido y la cuenta que representa la deuda con el proveedor. Este análisis permite clasificar la operación antes de realizar el registro contable.
             p Una operación puede afectar simultáneamente varias cuentas y grupos; por ello, la clasificación debe responder a su realidad económica y no solamente al documento que la respalda o al movimiento de efectivo.
         .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0

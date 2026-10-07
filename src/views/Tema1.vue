@@ -21,7 +21,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img2.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 El control financiero también requiere organizar inventarios, reconocer los impuestos asociados con las operaciones y relacionar cada transacción con sus soportes y comprobantes. Los registros pueden realizarse de forma manual o mediante herramientas tecnológicas, siempre que permitan consultar y dar seguimiento a la información. Su adecuada organización fortalece el control de los recursos y facilita el análisis de la situación financiera del negocio.
+          p.mb-0 La actividad económica comprende acciones orientadas a producir, transformar, distribuir o comercializar bienes y prestar servicios para satisfacer necesidades y generar resultados económicos. Identificar la actividad principal de una unidad productiva facilita reconocer las operaciones que posteriormente deben registrarse y controlarse. La CIIU permite agrupar las actividades productivas según sus características (DANE, 2022).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -60,45 +60,6 @@
                   td Compra y venta de mercancías, cobro por servicios, pagos de gastos y manejo de cuentas por cobrar y por pagar.
       //- FinTabla
       p(data-aos="fade-left") Seguidamente, se precisan algunas implicaciones de estos sectores para el registro y control financiero:
-      //- Inicio Tabla
-      .row.justify-content-center.mb-5(data-aos="fade-right")
-        .col-md-auto.col-lg-12
-          .titulo-sexto.color-acento-contenido.mb-3
-            h5 Tabla 13.
-            span Diferencias entre ventas de contado y a crédito
-          .tabla-a
-            table
-              thead
-                tr
-                  th(style="width: 20%") Aspecto
-                  th(style="width: 40%") Venta de contado
-                  th(style="width: 40%") Venta a crédito
-              tbody
-                tr
-                  td Entrega del bien o servicio
-                  td Se realiza según lo acordado
-                  td Se realiza según lo acordado
-                tr
-                  td Pago
-                  td Se recibe al momento de la operación
-                  td Se recibe posteriormente
-                tr
-                  td Ingreso
-                  td Se reconoce cuando corresponde
-                  td Se reconoce cuando corresponde
-                tr
-                  td Efectivo o bancos
-                  td Aumenta inmediatamente
-                  td No aumenta al momento de la venta
-                tr
-                  td Cuenta por cobrar
-                  td Generalmente no se genera
-                  td Se genera un derecho de cobro
-                tr
-                  td Seguimiento posterior
-                  td Se verifica el pago recibido
-                  td Se controla el saldo y fecha de cobro
-      //- FinTabla
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
@@ -156,12 +117,18 @@
             h4.card-title.mb-2 Administración de los recursos
             p Una misma persona puede comprar materiales, desarrollar la actividad productiva, realizar ventas, recibir pagos y administrar el dinero. Los registros sencillos contribuyen a identificar ingresos, gastos, obligaciones pendientes y recursos disponibles.
           //- Fin Tarjetas
+      //- Título nivel 3 - Imagen
+      .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
+        img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
+        h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Economías campesinas
+      //- Título nivel 3 - Imagen
       .row.align-items-center.mb-4
         .col-12.col-lg-7(data-aos="fade-left")
           .p-2.mb-1
-            p.mb-0 La organización de la información contable permite conocer cómo se utilizan los recursos y cuáles son los resultados de una actividad económica. En las economías populares y campesinas, registrar de manera ordenada ingresos, egresos, bienes y obligaciones facilita el control del negocio y proporciona información útil para respaldar decisiones relacionadas con su funcionamiento.
-          .bg-color-5.p-3            
-            p Los principios básicos de contabilidad orientan la identificación, clasificación y registro de las operaciones económicas. Para aplicarlos, es necesario diferenciar activos, pasivos, patrimonio, ingresos, costos y gastos, así como comprender la naturaleza y el movimiento de las cuentas. Esta base permite registrar compras, ventas y otras transacciones realizadas de contado o a crédito.
+            p.mb-0 En el ámbito rural, la Agricultura Campesina, Familiar, Étnica y Comunitaria (ACFEC) integra formas de vida y organización productiva vinculadas con las actividades agropecuarias y el territorio. Sus lineamientos se sustentan en la Resolución 464 de 2017, modificada por la Resolución 175 de 2024. Para su gestión financiera, es necesario reconocer los recursos y movimientos asociados con la actividad.
+          .bg-color-5.p-3
+            P.fw-bold Registro y control financiero
+            p Se deben identificar los recursos utilizados para producir, los ingresos, costos y gastos, las obligaciones adquiridas y los productos destinados a venta o autoconsumo. El registro debe adaptarse a cada unidad económica y generar información comprensible y útil.
         .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0
             img.mx-auto(src="@/assets/curso/temas/t1/img3.png", data-aos="zoom-in", style="width: 600px;")
@@ -453,8 +420,8 @@
                     )
                       .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
           .col-12.col-lg-5.d-flex.ps-lg-4
-            figure.mb-0.w-100
-              img.h-100.w-100(src='@/assets/curso/temas/t1/img11.png' alt='' style="object-fit: cover;")
+            figure.mb-0.w-100              
+              img(src='@/assets/curso/temas/t1/img11.png', alt='', style="width: 800px;" ).m-auto
       //- Fin Podcast
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
@@ -601,7 +568,7 @@
             p(data-aos="fade-left") A continuación, se presenta un registro sencillo que permite realizar seguimiento a las entradas, salidas y saldo de efectivo:
       //- Inicio Tabla
       .row.justify-content-center.mb-5(data-aos="fade-right")
-        .col-md-auto
+        .col-md-auto.col-lg-10
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Tabla 4.
             span Registro simplificado de movimientos del negocio
@@ -619,30 +586,30 @@
                 tr
                   td 05/08/2026
                   td Saldo inicial
-                  td $500.000
+                  td $ 500.000
                   td —
-                  td $500.000
+                  td $ 500.000
                   td Registro inicial
                 tr
                   td 06/08/2026
                   td Venta de productos
-                  td $350.000
+                  td $ 350.000
                   td —
-                  td $850.000
+                  td $ 850.000
                   td Comprobante de venta
                 tr
                   td 07/08/2026
                   td Compra de insumos
                   td —
-                  td $180.000
-                  td $670.000
+                  td $ 180.000
+                  td $ 670.000
                   td Factura
                 tr
                   td 08/08/2026
                   td Pago de transporte
                   td —
-                  td $40.000
-                  td $630.000
+                  td $ 40.000
+                  td $ 630.000
                   td Recibo
       //- Fin Tabla
       .row.align-items-center.mb-4
@@ -712,7 +679,7 @@
                   img(src='@/assets/curso/temas/t1/tarjeta05_4.png').img125
               .col-12.col-lg.text-start
                 h4 Registro
-                p Se incorporan la fecha, el concepto y el valor. <br><b>Ejemplo:</b> compra de materiales por $250.000.
+                p Se incorporan la fecha, el concepto y el valor. <br><b>Ejemplo:</b> compra de materiales por $ 250.000.
             .row.align-items-center
               .col-12.col-lg
                 h4 Organización
@@ -763,56 +730,56 @@
                               img(src='@/assets/curso/temas/t1/tarjeta06_1.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Ventas
-                            p.text-start Fecha, producto o servicio, valor y forma de pago.
+                            p.text-center Fecha, producto o servicio, valor y forma de pago.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t1/tarjeta06_2.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Compras
-                            p.text-start Fecha, proveedor, concepto, valor y forma de pago.
+                            p.text-center Fecha, proveedor, concepto, valor y forma de pago.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t1/tarjeta06_3.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Ingresos de efectivo
-                            p.text-start Fecha, origen, valor y soporte.
+                            p.text-center Fecha, origen, valor y soporte.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t1/tarjeta06_4.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Egresos de efectivo
-                            p.text-start Fecha, concepto, beneficiario, valor y soporte.
+                            p.text-center Fecha, concepto, beneficiario, valor y soporte.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t1/tarjeta06_1.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Cuentas por cobrar
-                            p.text-start Cliente, valor, fecha de origen y saldo pendiente.
+                            p.text-center Cliente, valor, fecha de origen y saldo pendiente.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t1/tarjeta06_2.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Cuentas por pagar
-                            p.text-start Proveedor o tercero, valor, fecha y saldo pendiente.
+                            p.text-center Proveedor o tercero, valor, fecha y saldo pendiente.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t1/tarjeta06_3.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Inventarios
-                            p.text-start Producto, entradas, salidas y existencia.
+                            p.text-center Producto, entradas, salidas y existencia.
                         .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden.p-4.text-center
                           .row.justify-content-center.mb-3.mt-3
                             .col-auto
                               img(src='@/assets/curso/temas/t1/tarjeta06_4.svg' alt='' style="width: 90px; height: 90px; object-fit: contain;").mx-auto
                           .p-2
                             h4.card-title.text-center.mb-3.fw-bold Bienes del negocio
-                            p.text-start Descripción, fecha de adquisición y valor.
+                            p.text-center Descripción, fecha de adquisición y valor.
                     .col-lg-4.order-lg-1.d-none.d-lg-block
                       figure
                         img(src='@/assets/curso/temas/t1/img20.png', style="width: 500px", data-aos="zoom-in").m-auto
@@ -826,8 +793,7 @@
       p(data-aos="fade-left") La organización de los registros debe complementarse con revisiones periódicas para detectar operaciones sin soporte, valores duplicados, diferencias en los registros y cuentas pendientes. Estas verificaciones favorecen información comprensible, pertinente y confiable para apoyar la toma de decisiones (Ley 1314, 2009).
       .row.justify-content-center.align-items-stretch.mb-4(data-aos="fade-right")
         .col-lg-7.d-flex.flex-column.justify-content-between
-          .bg-color-5.p-4.mb-4
-            p.fw-bold.mb-2 Ejemplo:
+          .bg-color-5.p-4.mb-4            
             p.mb-3 Para realizar esta revisión pueden aplicarse los siguientes controles sencillos:
             ul.lista-ul.color-vinotinto-custom.mb-0
               li.d-flex.mb-2
@@ -858,10 +824,8 @@
             .col
               p.mb-0 La organización de la información facilita el control de los recursos y constituye la base para avanzar hacia la clasificación de las cuentas y el registro de las transacciones.
         .col-lg-5.d-flex
-          figure.mb-0.w-100
-            img.h-100.w-100(src='@/assets/curso/temas/t1/img21.png', alt='', style="object-fit: cover;")
-
-
+          figure.mb-0.w-100            
+            img(src='@/assets/curso/temas/t1/img21.png', alt='', style="width: 800px;" ).m-auto
 </template>
 
 <script>
@@ -884,3 +848,4 @@ export default {
 </script>
 
 <style lang="sass"></style>
+

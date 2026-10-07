@@ -191,28 +191,28 @@ export default {
         {
           id: 6,
           texto:
-            'Una unidad económica posee activos por $12.000.000 y pasivos por $4.500.000. ¿Cuál es el valor de su patrimonio?',
+            'Una unidad económica posee activos por $ 12.000.000 y pasivos por $ 4.500.000. ¿Cuál es el valor de su patrimonio?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '$4.500.000',
+              texto: '$ 4.500.000',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '$12.000.000',
+              texto: '$ 12.000.000',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '$7.500.000',
+              texto: '$ 7.500.000',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '$16.500.000',
+              texto: '$ 16.500.000',
               esCorrecta: false,
             },
           ],
