@@ -10,7 +10,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img1.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 El registro de las operaciones permite aplicar los conocimientos sobre cuentas contables a las compras, ventas, ingresos, egresos y operaciones a crédito propias de las economías populares y campesinas. Identificar las cuentas afectadas y su movimiento facilita representar cada transacción y mantener información organizada para el control financiero (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 El registro de las operaciones permite aplicar los conocimientos sobre cuentas contables a las compras, ventas, ingresos, egresos y operaciones a crédito propias de las economías populares y campesinas. Identificar las cuentas afectadas y su movimiento facilita representar cada transacción y mantener información organizada para el control financiero (Decreto 2420, Anexo 3, 2015).
       Separador
       //- Inicio Tema3.1
       .row
@@ -51,7 +51,7 @@
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img4.png', alt='', style="object-fit: cover;")
         .col-lg-7.bg-color-2.d-flex.flex-column.justify-content-center.p-4
-          p.mb-3 Una compra es a crédito cuando el bien o recurso se recibe en el momento de la operación, pero el pago queda pendiente. Además del elemento adquirido, debe reconocerse la obligación con el proveedor, representada mediante una cuenta por pagar (Decreto 2420 Anexo 3, 2015). 
+          p.mb-3 Una compra es a crédito cuando el bien o recurso se recibe en el momento de la operación, pero el pago queda pendiente. Además del elemento adquirido, debe reconocerse la obligación con el proveedor, representada mediante una cuenta por pagar (Decreto 2420, Anexo 3, 2015). 
       p(data-aos="fade-left") La siguiente situación permite identificar los efectos de una compra cuyo pago queda pendiente:
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-lg-12.bg-color-8.p-4.p-md-5
@@ -170,7 +170,7 @@
                       td Aumenta
                       td Crédito
                       td $ 600.000
-      p(data-aos="fade-left") Las cuentas por pagar se reconocen cuando cumplen las condiciones establecidas para el reconocimiento de pasivos (Decreto 2420 Anexo 3, 2015).
+      p(data-aos="fade-left") Las cuentas por pagar se reconocen cuando cumplen las condiciones establecidas para el reconocimiento de pasivos (Decreto 2420, Anexo 3, 2015).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -195,13 +195,13 @@
             ul.lista-ul.mb-0
               li.d-flex.align-items-start.mb-1
                 i.fas.fa-circle.pt-1.me-2(style="font-size: 6px;")
-                span recurso adquirido: $ 1.000.000.
+                span Recurso adquirido: $ 1.000.000
               li.d-flex.align-items-start.mb-1
                 i.fas.fa-circle.pt-1.me-2(style="font-size: 6px;")
-                span pago inmediato: $ 400.000.
+                span Pago inmediato: $ 400.000
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-circle.pt-1.me-2(style="font-size: 6px;")
-                span cuenta por pagar: $ 600.000.
+                span Cuenta por pagar: $ 600.000
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -217,24 +217,24 @@
                 ul.lista-ul.mb-0
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Fecha.
+                    span.mb-0 Fecha
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Proveedor.
+                    span.mb-0 Proveedor
                   li.d-flex.align-items-center.mb-3.mb-md-0
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Descripción del bien o servicio.
+                    span.mb-0 Descripción del bien o servicio
               .col-md-6
                 ul.lista-ul.mb-0
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Valor.
+                    span.mb-0 Valor
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Forma de pago.
+                    span.mb-0 Forma de pago
                   li.d-flex.align-items-center.mb-0
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Soporte relacionado.
+                    span.mb-0 Soporte relacionado
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/t3/img7.png', alt='')
@@ -248,7 +248,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img8.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Las ventas corresponden a operaciones mediante las cuales una unidad económica entrega bienes, mercancías o productos, o presta servicios a cambio de una contraprestación. Su registro permite reconocer el ingreso generado y, según la forma de pago, identificar el efectivo recibido o los valores pendientes de cobro (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 Las ventas corresponden a operaciones mediante las cuales una unidad económica entrega bienes, mercancías o productos, o presta servicios a cambio de una contraprestación. Su registro permite reconocer el ingreso generado y, según la forma de pago, identificar el efectivo recibido o los valores pendientes de cobro (Decreto 2420, Anexo 3, 2015).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -273,7 +273,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img10.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Una venta es a crédito cuando el producto se entrega o el servicio se presta y el cliente acuerda pagar posteriormente. En este caso, se reconoce el ingreso y surge una cuenta por cobrar que representa el derecho a recibir el valor pendiente (Decreto 2420 Anexo 3, 2015). Por ejemplo, una tienda vende mercancías por $ 700.000 y concede al cliente un plazo de 30 días para pagar. Aunque todavía no haya recibido el dinero, la unidad económica debe identificar tanto el ingreso generado como la cuenta pendiente de cobro.
+          p.mb-0 Una venta es a crédito cuando el producto se entrega o el servicio se presta y el cliente acuerda pagar posteriormente. En este caso, se reconoce el ingreso y surge una cuenta por cobrar que representa el derecho a recibir el valor pendiente (Decreto 2420, Anexo 3, 2015). Por ejemplo, una tienda vende mercancías por $ 700.000 y concede al cliente un plazo de 30 días para pagar. Aunque todavía no haya recibido el dinero, la unidad económica debe identificar tanto el ingreso generado como la cuenta pendiente de cobro.
       p(data-aos="fade-left") Las siguientes diferencias permiten identificar el efecto de cada modalidad de venta:
       //- Inicio Tabla
       .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -357,7 +357,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Registro básico de una venta a crédito
       //- Título nivel 3 - Imagen
-      p(data-aos="fade-left") Cuando la venta se realiza a crédito, el ingreso se reconoce, pero en lugar de aumentar inmediatamente el efectivo se genera una cuenta por cobrar.
+      p(data-aos="fade-left") Cuando la venta se realiza a crédito, el ingreso se reconoce, pero en lugar de aumentar inmediatamente el efectivo, se genera una cuenta por cobrar.
       .row.justify-content-center.align-items-stretch.g-0.mb-5(data-aos="fade")
         .col-lg-1.d-flex.align-items-center.justify-content-center
           figure
@@ -448,7 +448,7 @@
               .bloque-texto-g__img(
                 :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img12.png')})` }")
               .bloque-texto-g__texto.p-4
-                p.mb-0 Cuando la actividad implica comercializar productos o mercancías, además del ingreso puede ser necesario reconocer el costo correspondiente a los bienes vendidos. El marco técnico para microempresas establece que el importe en libros de los inventarios vendidos se reconoce como costo en el periodo en que se reconocen los ingresos relacionados (Decreto 2420 Anexo 3, 2015). 
+                p.mb-0 Cuando la actividad implica comercializar productos o mercancías, además del ingreso, puede ser necesario reconocer el costo correspondiente a los bienes vendidos. El marco técnico para microempresas establece que el importe en libros de los inventarios vendidos se reconoce como costo en el periodo en que se reconocen los ingresos relacionados (Decreto 2420, Anexo 3, 2015). 
       .row.justify-content-center.align-items-stretch.mb-4(data-aos="fade-right")
         .col-lg-5.d-flex
           figure.mb-0.w-100
@@ -652,7 +652,7 @@
               figure.mb-3
                 img.mx-auto(src="@/assets/curso/temas/bg/icono.svg", data-aos="zoom-in", style="width: 70px;")
             .col
-              p.mb-0 El siguiente caso permite relacionar los movimientos de efectivo con el seguimiento de cuentas 
+              p.mb-0 El siguiente caso permite relacionar los movimientos de efectivo con el seguimiento de cuentas pendientes.
           .bg-color-2.p-2.mb-4
             p.fw-bold Ejemplo aplicado            
             p.mb-3 Una unidad productiva vende mercancías a crédito por <b>$ 900.000</b>. En el momento de la venta reconoce una cuenta por cobrar por ese valor. Diez días después, el cliente paga <b>$ 500.000</b>; por tanto, ingresa efectivo al negocio y la cuenta pendiente disminuye a <b>$ 400.000</b>. Cuando se reciba el saldo restante, se cancela la cuenta por cobrar, pero no se registra un nuevo ingreso por ventas, porque este ya fue reconocido cuando se realizó la operación.
@@ -937,7 +937,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img23.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Las herramientas tecnológicas permiten registrar, organizar y consultar transacciones mediante hojas de cálculo, aplicaciones o sistemas contables. También facilitan cálculos, consulta de saldos y generación de reportes, siempre que la información registrada sea completa y esté correctamente clasificada (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 Las herramientas tecnológicas permiten registrar, organizar y consultar transacciones mediante hojas de cálculo, aplicaciones o sistemas contables. También facilitan cálculos, consulta de saldos y generación de reportes, siempre que la información registrada sea completa y esté correctamente clasificada (Decreto 2420, Anexo 3, 2015).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')

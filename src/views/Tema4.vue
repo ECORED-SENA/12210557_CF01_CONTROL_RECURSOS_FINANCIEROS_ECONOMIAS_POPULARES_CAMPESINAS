@@ -19,7 +19,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.mb-4.mb-lg-0
           .bg-color-2.p-4
-            p.mb-4 Los inventarios son bienes destinados a la venta, en proceso de producción o utilizados como materiales y suministros. Su control permite conocer las existencias, identificar los bienes ingresados, utilizados o vendidos y establecer los recursos económicos representados en ellos, de acuerdo con las características de la actividad desarrollada (Decreto 2420 Anexo 3, 2015).
+            p.mb-4 Los inventarios son bienes destinados a la venta, en proceso de producción o utilizados como materiales y suministros. Su control permite conocer las existencias, identificar los bienes ingresados, utilizados o vendidos y establecer los recursos económicos representados en ellos, de acuerdo con las características de la actividad desarrollada (Decreto 2420, Anexo 3, 2015).
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/t4/img2.png', alt='', style="width: 400px;" )
@@ -141,7 +141,7 @@
       .row.align-items-center.mb-4
         .col-12.col-lg-7(data-aos="fade-left")
           .p-2.mb-1
-            p.mb-0 El control de inventarios debe considerar tanto las cantidades como su valor, incluidos los costos de adquisición y otros necesarios para llevarlos a su condición y ubicación actuales. Cuando se venden, su valor se reconoce como costo del periodo correspondiente (Decreto 2420 Anexo 3, 2015).
+            p.mb-0 El control de inventarios debe considerar tanto las cantidades como su valor, incluidos los costos de adquisición y otros necesarios para llevarlos a su condición y ubicación actuales. Cuando se venden, su valor se reconoce como costo del periodo correspondiente (Decreto 2420, Anexo 3, 2015).
           .bg-color-2.p-2
             .row
               .col-lg-2
@@ -161,7 +161,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img8.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 El sistema de inventario periódico determina las existencias y el costo de los bienes vendidos al cierre de un periodo. Como el inventario no se actualiza después de cada entrada o salida, requiere un conteo físico para establecer las cantidades disponibles. Las microempresas pueden utilizar este sistema según sus necesidades (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 El sistema de inventario periódico determina las existencias y el costo de los bienes vendidos al cierre de un periodo. Como el inventario no se actualiza después de cada entrada o salida, requiere un conteo físico para establecer las cantidades disponibles. Las microempresas pueden utilizar este sistema según sus necesidades (Decreto 2420, Anexo 3, 2015).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -332,7 +332,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t4/img12.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 El sistema de inventario permanente actualiza las existencias con cada compra, venta, devolución, consumo u otro movimiento. Esto permite conocer continuamente las cantidades disponibles y el valor registrado. A diferencia del sistema periódico, cada entrada o salida modifica el inventario, aunque siguen siendo necesarias verificaciones físicas periódicas (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 El sistema de inventario permanente actualiza las existencias con cada compra, venta, devolución, consumo u otro movimiento. Esto permite conocer continuamente las cantidades disponibles y el valor registrado. A diferencia del sistema periódico, cada entrada o salida modifica el inventario, aunque siguen siendo necesarias verificaciones físicas periódicas (Decreto 2420, Anexo 3, 2015).
       .row.align-items-center.mb-5(data-aos="fade-left")
         .col-auto
           figure.mb-0
@@ -416,13 +416,13 @@
             .col
               p.mb-0 Las entradas corresponden a los bienes que se incorporan al inventario y aumentan las existencias. Pueden originarse en compras, devoluciones de clientes, productos terminados provenientes del proceso productivo u otros movimientos debidamente identificados.
           .bg-color-5.p-4.mb-4
-            p.mb-2 Para controlar una entrada se deben registrar datos como fecha, producto, cantidad recibida, valor cuando corresponda, proveedor u origen y soporte de la operación. Esta información permite relacionar el movimiento físico con el registro económico.
+            p.mb-2 Para controlar una entrada, se deben registrar datos como fecha, producto, cantidad recibida, valor cuando corresponda, proveedor u origen y soporte de la operación. Esta información permite relacionar el movimiento físico con el registro económico.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Salidas de inventario
       //- Título nivel 3 - Imagen
-      p(data-aos="fade-left") Las salidas disminuyen las existencias por ventas, consumo, devoluciones, pérdidas o deterioros. Su registro oportuno permite mantener saldos reales; cuando los inventarios se venden, su valor se reconoce como costo del periodo correspondiente (Decreto 2420 Anexo 3, 2015).
+      p(data-aos="fade-left") Las salidas disminuyen las existencias por ventas, consumo, devoluciones, pérdidas o deterioros. Su registro oportuno permite mantener saldos reales; cuando los inventarios se venden, su valor se reconoce como costo del periodo correspondiente (Decreto 2420, Anexo 3, 2015).
       .row.align-items-center.mb-5(data-aos="fade-left")
         .col-auto
           figure.mb-0

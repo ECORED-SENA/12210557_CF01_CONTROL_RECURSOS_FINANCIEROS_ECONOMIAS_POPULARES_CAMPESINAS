@@ -219,7 +219,7 @@
             img.mx-auto(src="@/assets/curso/temas/t1/img6.png", data-aos="zoom-in", style="width: 600px;")
         .col-12.col-lg-7(data-aos="fade-left")
           .p-2.mb-1
-            p.mb-0 La información contable se obtiene mediante la identificación, clasificación y registro de las operaciones económicas, mientras que la información financiera organiza y presenta esos registros para facilitar su análisis. Si las operaciones no se registran adecuadamente, la información utilizada para evaluar el negocio puede resultar incompleta o incorrecta. El siguiente ejemplo relaciona el registro de las Requiere controlar las entradas, salidas y existencias. con su posterior análisis financiero:
+            p.mb-0 La información contable se obtiene mediante la identificación, clasificación y registro de las operaciones económicas, mientras que la información financiera organiza y presenta esos registros para facilitar su análisis. Si las operaciones no se registran adecuadamente, la información utilizada para evaluar el negocio puede resultar incompleta o incorrecta. El siguiente ejemplo relaciona el registro de las operaciones con su posterior análisis financiero:
           .bg-color-2.p-3
             p.fw-bold Ejemplo aplicado
             p Por ejemplo, si una unidad productiva registra diariamente sus ventas, compras, pagos y cuentas pendientes, dispone de información contable sobre las operaciones realizadas. Cuando estos datos se organizan para conocer los recursos disponibles, las obligaciones, los ingresos, los gastos o los resultados alcanzados, se convierten en información útil para analizar la situación financiera del negocio.
@@ -399,7 +399,7 @@
           figure
             img(src="@/assets/curso/temas/bg/3lineas.svg", data-aos="zoom-in", style="width: 80px").mx-auto
         .col-lg-11.mb-0.d-flex.align-items-center
-          p.mb-0 El marco técnico del Grupo 3 contempla principios y características orientados a generar información útil, como negocio en marcha, esencia sobre forma, prudencia e integridad (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 El marco técnico del Grupo 3 contempla principios y características orientados a generar información útil, como negocio en marcha, esencia sobre forma, prudencia e integridad (Decreto 2420, Anexo 3, 2015).
       p(data-aos="fade-left") Se invita a reproducir el siguiente pódcast para profundizar en negocio en marcha, esencia sobre forma, prudencia, integridad y comprensibilidad y relevancia de la información mediante situaciones que relacionan estos criterios con las operaciones económicas:
       //- Inicio Podcast
       .container-fluid.tarjeta.tarjeta--blanca.px-0.mb-2(data-aos="fade-left")
@@ -483,7 +483,7 @@
               .bloque-texto-g__img(
                 :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img12.png')})` }")
               .bloque-texto-g__texto.p-4
-                p.mb-0 La contabilidad simplificada adapta el registro a unidades de menor tamaño. La Ley 1314 de 2009, modificada por la Ley 2069 de 2020, permite autorizar a microempresas contabilidad de acumulación, de caja o métodos mixtos; sin embargo, los preparadores del Grupo 3 aplican la base de causación establecida en el Anexo 3 del Decreto 2420 de 2015 (Ley 1314, 2009; Ley 2069, 2020; Decreto 2420 Anexo 3, 2015).
+                p.mb-0 La contabilidad simplificada adapta el registro a unidades de menor tamaño. La Ley 1314 de 2009, modificada por la Ley 2069 de 2020, permite autorizar a microempresas contabilidad de acumulación, de caja o métodos mixtos; sin embargo, los preparadores del Grupo 3 aplican la base de causación establecida en el Anexo 3 del Decreto 2420 de 2015 (Ley 1314, 2009; Ley 2069, 2020; Decreto 2420, Anexo 3, 2015).
             //- Título nivel 3 - Imagen
             .titulo-tercer-nivel.mt-3(data-aos="fade-right")
               img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -635,7 +635,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img17.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 La información económica resulta útil cuando permite identificar la operación realizada, su fecha, valor y soporte. Mantener registros periódicos de compras, ventas, ingresos, egresos, cuentas pendientes e inventarios facilita su consulta, seguimiento y posterior clasificación contable. (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 La información económica resulta útil cuando permite identificar la operación realizada, su fecha, valor y soporte. Mantener registros periódicos de compras, ventas, ingresos, egresos, cuentas pendientes e inventarios facilita su consulta, seguimiento y posterior clasificación contable. (Decreto 2420, Anexo 3, 2015).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -848,4 +848,3 @@ export default {
 </script>
 
 <style lang="sass"></style>
-

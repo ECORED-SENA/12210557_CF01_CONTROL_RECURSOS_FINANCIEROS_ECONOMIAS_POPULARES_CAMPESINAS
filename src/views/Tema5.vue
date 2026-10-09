@@ -122,32 +122,32 @@
                   th Información que permite verificar
               tbody
                 tr
-                  td Compra de bienes o servicios.
+                  td Compra de bienes o servicios
                   td Factura de venta
                   td Proveedor, fecha, concepto y valor.
                 tr
-                  td Venta de productos o servicios.
+                  td Venta de productos o servicios
                   td Factura o documento equivalente, cuando corresponda.
                   td Cliente, bienes o servicios y valor de la operación.
                 tr
-                  td Pago mediante transferencia.
-                  td Comprobante o registro bancario.
+                  td Pago mediante transferencia
+                  td Comprobante o registro bancario
                   td Fecha, valor, cuenta y beneficiario.
                 tr
-                  td Recaudo de dinero.
-                  td Recibo o comprobante correspondiente.
+                  td Recaudo de dinero
+                  td Recibo o comprobante correspondiente
                   td Origen, fecha y valor recibido.
                 tr
-                  td Compra a proveedor no obligado a facturar.
+                  td Compra a proveedor no obligado a facturar
                   td Documento soporte en adquisiciones, cuando sea exigible.
                   td Proveedor, adquirente, concepto y valor.
                 tr
-                  td Entrada o salida de inventario.
-                  td Registro de movimiento de inventarios.
+                  td Entrada o salida de inventario
+                  td Registro de movimiento de inventarios
                   td Producto, cantidad, fecha y origen del movimiento.
                 tr
-                  td Adquisición mediante acuerdo contractual.
-                  td Contrato y documentos relacionados.
+                  td Adquisición mediante acuerdo contractual
+                  td Contrato y documentos relacionados
                   td Partes, objeto, condiciones y valores pactados.
                 tr
                   td Devolución
@@ -334,28 +334,28 @@
                     tbody
                       tr
                         td Cotización
-                        td Informar condiciones comerciales.
-                        td No.
+                        td Informar condiciones comerciales
+                        td No
                       tr
                         td Orden de compra
-                        td Solicitar o autorizar una compra.
-                        td No.
+                        td Solicitar o autorizar una compra
+                        td No
                       tr
                         td Remisión
-                        td Evidenciar entrega de bienes.
-                        td No necesariamente.
+                        td Evidenciar entrega de bienes
+                        td No necesariamente
                       tr
                         td Factura
-                        td Respaldar una operación de venta.
-                        td Sirve como soporte para su reconocimiento.
+                        td Respaldar una operación de venta
+                        td Sirve como soporte para su reconocimiento
                       tr
                         td Documento soporte en adquisiciones
-                        td Respaldar determinadas adquisiciones a no obligados a facturar.
-                        td Sirve como soporte cuando corresponde.
+                        td Respaldar determinadas adquisiciones a no obligados a facturar
+                        td Sirve como soporte cuando corresponde
                       tr
                         td Comprobante de contabilidad
-                        td Organizar la información de la operación y las cuentas afectadas.
-                        td Se relaciona directamente con el registro.
+                        td Organizar la información de la operación y las cuentas afectadas
+                        td Se relaciona directamente con el registro
             //- Fin Tabla
             .row.justify-content-center.align-items-stretch.mb-4(data-aos="fade-right")
               .col-lg-5.d-flex
@@ -385,7 +385,7 @@
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
         h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Relación entre los elementos de la operación
       //- Título nivel 3 - Imagen
-      p(data-aos="fade-left") Para registrar una transacción es necesario partir del hecho económico, verificar la documentación y analizar sus efectos antes de determinar las cuentas correspondientes.
+      p(data-aos="fade-left") Para registrar una transacción, es necesario partir del hecho económico, verificar la documentación y analizar sus efectos antes de determinar las cuentas correspondientes.
       .row.justify-content-center.align-items-stretch.g-0.mb-3(data-aos="fade")
         .col-lg-1.d-flex.align-items-center.justify-content-center
           figure
@@ -620,8 +620,8 @@
                         td Soportar operaciones específicas autorizadas.
                       tr
                         td Generación
-                        td Electrónica.
-                        td Electrónica.
+                        td Electrónica
+                        td Electrónica
                       tr
                         td Validación
                         td Se transmite para validación de la DIAN.
@@ -632,7 +632,7 @@
                         td Se utiliza en operaciones expresamente contempladas.
                       tr
                         td Soporte de la operación
-                        td Sí.
+                        td Sí
                         td Sí, cuando cumple los requisitos correspondientes.
                       tr
                         td Alternativa

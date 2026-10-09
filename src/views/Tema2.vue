@@ -10,7 +10,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img1.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Las operaciones de una unidad económica deben clasificarse para identificar sus recursos, obligaciones, patrimonio, ingresos, costos y gastos. Las cuentas contables agrupan movimientos de naturaleza similar y facilitan su registro, seguimiento y análisis. Comprender su estructura y naturaleza permite interpretar cómo cada transacción modifica la situación económica del negocio (Decreto 2420 Anexo 3, 2015). 
+          p.mb-0 Las operaciones de una unidad económica deben clasificarse para identificar sus recursos, obligaciones, patrimonio, ingresos, costos y gastos. Las cuentas contables agrupan movimientos de naturaleza similar y facilitan su registro, seguimiento y análisis. Comprender su estructura y naturaleza permite interpretar cómo cada transacción modifica la situación económica del negocio (Decreto 2420, Anexo 3, 2015). 
       Separador
       //- Inicio Tema2.1
       .row
@@ -20,7 +20,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img2.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Las cuentas contables permiten identificar, clasificar y acumular información sobre operaciones con características económicas similares. Mediante ellas se organizan los movimientos que afectan los recursos, obligaciones, patrimonio, ingresos, costos y gastos, facilitando su seguimiento y la generación de información financiera útil (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 Las cuentas contables permiten identificar, clasificar y acumular información sobre operaciones con características económicas similares. Mediante ellas se organizan los movimientos que afectan los recursos, obligaciones, patrimonio, ingresos, costos y gastos, facilitando su seguimiento y la generación de información financiera útil (Decreto 2420, Anexo 3, 2015).
       .row.align-items-center.mb-4(data-aos="fade-right")
         .col-12.col-lg-5.mb-4.mb-lg-0
           figure.mb-0
@@ -38,7 +38,7 @@
       //- Título nivel 3 - Imagen
       .row.justify-content-center.align-items-stretch.mb-5.g-0(data-aos="fade-right")
         .col-lg-7.bg-color-2.d-flex.flex-column.justify-content-center.p-4
-          p.mb-3 La principal función de las cuentas es ordenar las operaciones según su naturaleza. Los registros pueden agruparse posteriormente para conocer cuánto posee y debe la unidad económica, qué ingresos ha generado y qué recursos ha utilizado durante el desarrollo de su actividad (Decreto 2420 Anexo 3, 2015).
+          p.mb-3 La principal función de las cuentas es ordenar las operaciones según su naturaleza. Los registros pueden agruparse posteriormente para conocer cuánto posee y debe la unidad económica, qué ingresos ha generado y qué recursos ha utilizado durante el desarrollo de su actividad (Decreto 2420, Anexo 3, 2015).
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t2/img4.png', alt='', style="object-fit: cover;")
@@ -169,7 +169,7 @@
               img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
               h3.titulo-tercer-nivel__text.mb-0.px-0.py-2 Cuentas reales y cuentas nominales
             //- Título nivel 3 - Imagen
-            p(data-aos="fade-left") Para organizar la información resulta útil distinguir las cuentas relacionadas con la situación financiera de aquellas que intervienen en la determinación del resultado del periodo. Las siguientes categorías permiten establecer esta diferencia:
+            p(data-aos="fade-left") Para organizar la información, resulta útil distinguir las cuentas relacionadas con la situación financiera de aquellas que intervienen en la determinación del resultado del periodo. Las siguientes categorías permiten establecer esta diferencia:
             //- Inicio Tarjetas
             .row.justify-content-center.g-0.mb-2(data-aos="fade-right")
               .col-lg-6.col-md-6
@@ -187,7 +187,7 @@
                       figure
                         img(src='@/assets/curso/temas/bg/icono2.svg', style="width:100px").m-auto
                   h4.card-title.mb-2 Cuentas nominales
-                  p Reúnen principalmente los ingresos, costos y gastos generados durante un periodo. Estas cuentas permiten determinar el resultado obtenido por la actividad económica (Decreto 2420 Anexo 3, 2015).
+                  p Reúnen principalmente los ingresos, costos y gastos generados durante un periodo. Estas cuentas permiten determinar el resultado obtenido por la actividad económica (Decreto 2420, Anexo 3, 2015).
                 //- Fin Tarjetas
       .row.align-items-center.mb-4
         .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
@@ -214,7 +214,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img8.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 La situación financiera de una unidad económica se comprende a partir de los activos, pasivos y patrimonio. Estos elementos permiten identificar los recursos controlados por el negocio, las obligaciones con terceros y la parte residual que corresponde a sus propietarios después de considerar dichas obligaciones (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 La situación financiera de una unidad económica se comprende a partir de los activos, pasivos y patrimonio. Estos elementos permiten identificar los recursos controlados por el negocio, las obligaciones con terceros y la parte residual que corresponde a sus propietarios después de considerar dichas obligaciones (Decreto 2420, Anexo 3, 2015).
       p(data-aos="fade-left") Los siguientes elementos permiten reconocer qué representa cada componente de la situación financiera:
       //- Inicio Tarjetas
       .row.justify-content-center(data-aos="fade-right")
@@ -238,7 +238,7 @@
               img(src='@/assets/curso/temas/t2/tarjeta03_3.png').w-100
             .p-4
               h4.card-title.text-center.mb-4 Patrimonio
-              p.mb-0 Representa la parte residual de los activos después de deducir los pasivos. Permite identificar la parte de los recursos que corresponde económicamente al propietario o propietarios (Decreto 2420 Anexo 3, 2015). 
+              p.mb-0 Representa la parte residual de los activos después de deducir los pasivos. Permite identificar la parte de los recursos que corresponde económicamente al propietario o propietarios (Decreto 2420, Anexo 3, 2015). 
       //- Fin Tarjetas
       .row.justify-content-center.mb-5(data-aos="fade-left") 
         .col-lg-10.bg-color-2.p-4
@@ -260,7 +260,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img9.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Además de identificar su naturaleza, los activos y pasivos pueden organizarse según el momento en que se espera realizarlos, utilizarlos o pagarlos. El marco técnico para microempresas distingue entre partidas corrientes y no corrientes para presentar la situación financiera (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 Además de identificar su naturaleza, los activos y pasivos pueden organizarse según el momento en que se espera realizarlos, utilizarlos o pagarlos. El marco técnico para microempresas distingue entre partidas corrientes y no corrientes para presentar la situación financiera (Decreto 2420, Anexo 3, 2015).
       p(data-aos="fade-left") La siguiente clasificación permite diferenciar los recursos y obligaciones según el periodo previsto para su utilización, realización o pago:
       //- Pestanas horizontales
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
@@ -296,7 +296,7 @@
                   img(src='@/assets/curso/temas/t2/tarjeta04_4.png')
               .col-md-6
                 h4 Pasivo no corriente
-                p Obligación cuyo vencimiento corresponde a un plazo mayor. <br><b>Ejemplos:</b> créditos u obligaciones financieras de largo plazo (Decreto 2420 Anexo 3, 2015).
+                p Obligación cuyo vencimiento corresponde a un plazo mayor. <br><b>Ejemplos:</b> créditos u obligaciones financieras de largo plazo (Decreto 2420, Anexo 3, 2015).
       //- Cierres Pestanas horizontales
       p(data-aos="fade-left") Identificar activos, pasivos y patrimonio, así como su clasificación, permite comprender qué posee la unidad económica, qué obligaciones mantiene y cuál es su posición económica.
       Separador
@@ -308,7 +308,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img10.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 El desarrollo de una actividad económica genera valores que permiten establecer si el negocio obtiene resultados favorables o desfavorables. Para ello, es necesario diferenciar los ingresos generados por la actividad de los costos y gastos asociados con su funcionamiento (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 El desarrollo de una actividad económica genera valores que permiten establecer si el negocio obtiene resultados favorables o desfavorables. Para ello, es necesario diferenciar los ingresos generados por la actividad de los costos y gastos asociados con su funcionamiento (Decreto 2420, Anexo 3, 2015).
       p(data-aos="fade-left") Las siguientes categorías permiten reconocer qué representa cada concepto y cómo se relaciona con la actividad económica:
       //- Inicio Tarjetas
       .row.justify-content-center(data-aos="fade-right")
@@ -393,7 +393,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img11.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Cada cuenta puede registrar aumentos o disminuciones cuando se realiza una transacción. Estos movimientos se expresan mediante débitos y créditos según la naturaleza de la cuenta; por ello, un débito no representa siempre un aumento ni un crédito significa necesariamente una disminución (Decreto 2420 Anexo 3, 2015).
+          p.mb-0 Cada cuenta puede registrar aumentos o disminuciones cuando se realiza una transacción. Estos movimientos se expresan mediante débitos y créditos según la naturaleza de la cuenta; por ello, un débito no representa siempre un aumento ni un crédito significa necesariamente una disminución (Decreto 2420, Anexo 3, 2015).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -793,3 +793,4 @@ export default {
 </script>
 
 <style lang="sass"></style>
+
