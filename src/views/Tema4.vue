@@ -248,16 +248,16 @@
             ul.lista-ul.mb-0
               li.d-flex.align-items-center.mb-3
                 i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                span.mb-0 Inventario inicial: $ 1.500.000
+                span.mb-0 Inventario inicial: $1.500.000
               li.d-flex.align-items-center.mb-3
                 i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                span.mb-0 Compras realizadas durante el periodo: $ 3.800.000
+                span.mb-0 Compras realizadas durante el periodo: $3.800.000
               li.d-flex.align-items-center.mb-3
                 i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                span.mb-0 Inventario final determinado físicamente: $ 1.200.000
+                span.mb-0 Inventario final determinado físicamente: $1.200.000
           p.mb-3.fw-bold Aplicando la fórmula:
-          p.mb-3 $ 1.500.000 + $ 3.800.000 − $ 1.200.000 = $ 4.100.000
-          p.mb-5 Por lo tanto, el costo de las mercancías vendidas durante el periodo corresponde a $ 4.100.000.
+          p.mb-3 $1.500.000 + $3.800.000 − $1.200.000 = $4.100.000
+          p.mb-5 Por lo tanto, el costo de las mercancías vendidas durante el periodo corresponde a $4.100.000.
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
             .col-md-auto.col-lg-16
@@ -273,19 +273,19 @@
                   tbody
                     tr
                       td Inventario inicial
-                      td $ 1.500.000
+                      td $1.500.000
                     tr
                       td Más: compras del periodo
-                      td $ 3.800.000
+                      td $3.800.000
                     tr
                       td Mercancía disponible
-                      td $ 5.300.000
+                      td $5.300.000
                     tr
                       td Menos: inventario final
-                      td $ 1.200.000
+                      td $1.200.000
                     tr
                       td Costo de ventas
-                      td $ 4.100.000
+                      td $4.100.000
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')

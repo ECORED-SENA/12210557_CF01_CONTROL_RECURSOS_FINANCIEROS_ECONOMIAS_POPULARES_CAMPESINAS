@@ -37,7 +37,7 @@
             .col
               p.mb-0 Este caso permite identificar los efectos que genera una compra con pago inmediato:
           .bg-color-5.p-4.mb-4
-            p.mb-2 Una unidad productiva compra mercancías para la venta por <b>$ 800.000</b> y paga mediante transferencia bancaria. Desde el análisis básico de la operación, aumenta el recurso representado por las mercancías y disminuye el dinero disponible en la cuenta bancaria.
+            p.mb-2 Una unidad productiva compra mercancías para la venta por <b>$800.000</b> y paga mediante transferencia bancaria. Desde el análisis básico de la operación, aumenta el recurso representado por las mercancías y disminuye el dinero disponible en la cuenta bancaria.
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img3.png', alt='', style="object-fit: cover;")
@@ -58,7 +58,7 @@
           //- Bloque del ejemplo aplicado
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-3 Una tienda adquiere mercancías por <b>$ 1.200.000</b> con un plazo de <b>30 días</b>. El negocio recibe los productos y simultáneamente adquiere una obligación por el mismo valor. El hecho de que todavía no se haya realizado una salida de dinero no significa que la operación deba esperar para ser reconocida.
+            p.mb-3 Una tienda adquiere mercancías por <b>$1.200.000</b> con un plazo de <b>30 días</b>. El negocio recibe los productos y simultáneamente adquiere una obligación por el mismo valor. El hecho de que todavía no se haya realizado una salida de dinero no significa que la operación deba esperar para ser reconocida.
           p.mb-4 Las diferencias entre ambas formas de compra pueden compararse mediante los siguientes aspectos:
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -113,7 +113,7 @@
         .col-lg-10.bg-color-8.p-4.p-md-5
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-0 <b>Compra de contado:</b> si se compran mercancías de contado por <b>$ 600.000</b>, el análisis básico es el siguiente:
+            p.mb-0 <b>Compra de contado:</b> si se compran mercancías de contado por <b>$600.000</b>, el análisis básico es el siguiente:
           .row.justify-content-center.mb-5(data-aos="fade-right")
             .col-md-auto.col-lg-12
               .titulo-sexto.color-acento-contenido.mb-3
@@ -134,15 +134,15 @@
                       td Activo
                       td Aumenta
                       td Débito
-                      td $ 600.000
+                      td $600.000
                     tr
                       td Efectivo o bancos
                       td Activo
                       td Disminuye
                       td Crédito
-                      td $ 600.000
+                      td $600.000
           .bg-color-5.p-4.mb-4
-            p.mb-0 <b>Compra a crédito:</b> si las mismas mercancías por <b>$ 600.000</b> se compran a crédito, el inventario continúa aumentando por el débito, pero se reconoce una cuenta por pagar al proveedor por el crédito:
+            p.mb-0 <b>Compra a crédito:</b> si las mismas mercancías por <b>$600.000</b> se compran a crédito, el inventario continúa aumentando por el débito, pero se reconoce una cuenta por pagar al proveedor por el crédito:
           .row.justify-content-center.mb-5(data-aos="fade-right")
             .col-md-auto.col-lg-12
               .titulo-sexto.color-acento-contenido.mb-3
@@ -163,13 +163,13 @@
                       td Activo
                       td Aumenta
                       td Débito
-                      td $ 600.000
+                      td $600.000
                     tr
                       td Proveedores
                       td Pasivo
                       td Aumenta
                       td Crédito
-                      td $ 600.000
+                      td $600.000
       p(data-aos="fade-left") Las cuentas por pagar se reconocen cuando cumplen las condiciones establecidas para el reconocimiento de pasivos (Decreto 2420, Anexo 3, 2015).
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
@@ -190,18 +190,18 @@
               p.mb-0 El siguiente caso permite identificar los tres efectos producidos por una compra con pago parcial:
           .bg-color-2.p-2.mb-4
             p.fw-bold Ejemplo aplicado            
-            p.mb-3 Si se compran insumos por <b>$ 1.000.000</b>, se pagan <b>$ 400.000</b> al momento de la adquisición y los <b>$ 600.000</b> restantes quedan a crédito, deben reconocerse los tres efectos: aumenta el recurso adquirido, disminuye el efectivo por la parte pagada y se genera una obligación por el saldo pendiente.
+            p.mb-3 Si se compran insumos por <b>$1.000.000</b>, se pagan <b>$400.000</b> al momento de la adquisición y los <b>$600.000</b> restantes quedan a crédito, deben reconocerse los tres efectos: aumenta el recurso adquirido, disminuye el efectivo por la parte pagada y se genera una obligación por el saldo pendiente.
             p.mb-2 En este caso:
             ul.lista-ul.mb-0
               li.d-flex.align-items-start.mb-1
                 i.fas.fa-circle.pt-1.me-2(style="font-size: 6px;")
-                span Recurso adquirido: $ 1.000.000
+                span Recurso adquirido: $1.000.000
               li.d-flex.align-items-start.mb-1
                 i.fas.fa-circle.pt-1.me-2(style="font-size: 6px;")
-                span Pago inmediato: $ 400.000
+                span Pago inmediato: $400.000
               li.d-flex.align-items-start.mb-0
                 i.fas.fa-circle.pt-1.me-2(style="font-size: 6px;")
-                span Cuenta por pagar: $ 600.000
+                span Cuenta por pagar: $600.000
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -260,7 +260,7 @@
             .col
               p.mb-4 Una venta es de contado cuando el comprador paga el valor de la operación en el momento en que esta se realiza. En este caso, la unidad económica reconoce el ingreso generado y simultáneamente aumenta el efectivo o los recursos disponibles en bancos, según el medio utilizado para recibir el pago.
           .bg-color-5.p-4.mb-4
-            p.mb-2 Por ejemplo, si una unidad campesina vende productos por $ 900.000 y recibe inmediatamente el dinero mediante transferencia, aumenta el recurso disponible en bancos y se reconoce el ingreso correspondiente a la venta.
+            p.mb-2 Por ejemplo, si una unidad campesina vende productos por $900.000 y recibe inmediatamente el dinero mediante transferencia, aumenta el recurso disponible en bancos y se reconoce el ingreso correspondiente a la venta.
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img(src='@/assets/curso/temas/t3/img9.png', alt='', style="width: 500px;" ).m-auto
@@ -273,7 +273,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t3/img10.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 Una venta es a crédito cuando el producto se entrega o el servicio se presta y el cliente acuerda pagar posteriormente. En este caso, se reconoce el ingreso y surge una cuenta por cobrar que representa el derecho a recibir el valor pendiente (Decreto 2420, Anexo 3, 2015). Por ejemplo, una tienda vende mercancías por $ 700.000 y concede al cliente un plazo de 30 días para pagar. Aunque todavía no haya recibido el dinero, la unidad económica debe identificar tanto el ingreso generado como la cuenta pendiente de cobro.
+          p.mb-0 Una venta es a crédito cuando el producto se entrega o el servicio se presta y el cliente acuerda pagar posteriormente. En este caso, se reconoce el ingreso y surge una cuenta por cobrar que representa el derecho a recibir el valor pendiente (Decreto 2420, Anexo 3, 2015). Por ejemplo, una tienda vende mercancías por $700.000 y concede al cliente un plazo de 30 días para pagar. Aunque todavía no haya recibido el dinero, la unidad económica debe identificar tanto el ingreso generado como la cuenta pendiente de cobro.
       p(data-aos="fade-left") Las siguientes diferencias permiten identificar el efecto de cada modalidad de venta:
       //- Inicio Tabla
       .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -324,7 +324,7 @@
         .col-lg-10.bg-color-8.p-4.p-md-5
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-0 Si se realiza una venta de contado por <b>$ 800.000</b>, aumenta el efectivo o bancos, que corresponde a un activo, y también aumenta el ingreso generado por la actividad. La operación se registra de la siguiente manera:          
+            p.mb-0 Si se realiza una venta de contado por <b>$800.000</b>, aumenta el efectivo o bancos, que corresponde a un activo, y también aumenta el ingreso generado por la actividad. La operación se registra de la siguiente manera:          
           .row.justify-content-center.mb-5(data-aos="fade-right")
             .col-md-auto.col-lg-12
               .titulo-sexto.color-acento-contenido.mb-3
@@ -345,13 +345,13 @@
                       td Activo
                       td Aumenta
                       td Débito
-                      td $ 800.000
+                      td $800.000
                     tr
                       td Ingresos por ventas
                       td Ingreso
                       td Aumenta
                       td Crédito
-                      td $ 800.000
+                      td $800.000
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -368,7 +368,7 @@
         .col-lg-10.bg-color-8.p-4.p-md-5
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-0 Si una unidad económica vende productos por <b>$ 800.000</b> con pago posterior, el registro básico sería el siguiente:
+            p.mb-0 Si una unidad económica vende productos por <b>$800.000</b> con pago posterior, el registro básico sería el siguiente:
           .row.justify-content-center.mb-5(data-aos="fade-right")
             .col-md-auto.col-lg-12
               .titulo-sexto.color-acento-contenido.mb-3
@@ -389,13 +389,13 @@
                       td Activo
                       td Aumenta
                       td Débito
-                      td $ 800.000
+                      td $800.000
                     tr
                       td Ingresos por ventas
                       td Ingreso
                       td Aumenta
                       td Crédito
-                      td $ 800.000
+                      td $800.000
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -407,7 +407,7 @@
         .col-lg-5.d-flex
           figure.mb-0.w-100
             img.h-100.w-100(src='@/assets/curso/temas/t3/img11.png', alt='', style="object-fit: cover;")
-      p(data-aos="fade-left") Por ejemplo, si el cliente paga los $ 800.000 pendientes del ejemplo anterior:
+      p(data-aos="fade-left") Por ejemplo, si el cliente paga los $800.000 pendientes del ejemplo anterior:
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
@@ -432,13 +432,13 @@
                         td Activo
                         td Aumenta
                         td Débito
-                        td $ 800.000
+                        td $800.000
                       tr
                         td Cuentas por cobrar
                         td Activo
                         td Disminuye
                         td Crédito
-                        td $ 800.000
+                        td $800.000
             //- Título nivel 3 - Imagen
             .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
               img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -459,7 +459,7 @@
               p.mb-4 La siguiente situación permite identificar por separado el ingreso de la operación y el costo del producto vendido:
           .bg-color-2.p-2.mb-4
             p.fw-bold Ejemplo aplicado
-            p.mb-2 Si una mercancía que tuvo un costo de <b>$ 500.000</b> se vende por <b>$ 800.000</b>, los <b>$ 800.000</b> representan el ingreso de la operación y los <b>$ 500.000</b> corresponden al costo asociado con los bienes vendidos. Esta diferenciación será importante para determinar posteriormente el resultado generado por la actividad.
+            p.mb-2 Si una mercancía que tuvo un costo de <b>$500.000</b> se vende por <b>$800.000</b>, los <b>$800.000</b> representan el ingreso de la operación y los <b>$500.000</b> corresponden al costo asociado con los bienes vendidos. Esta diferenciación será importante para determinar posteriormente el resultado generado por la actividad.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -655,8 +655,8 @@
               p.mb-0 El siguiente caso permite relacionar los movimientos de efectivo con el seguimiento de cuentas pendientes.
           .bg-color-2.p-2.mb-4
             p.fw-bold Ejemplo aplicado            
-            p.mb-3 Una unidad productiva vende mercancías a crédito por <b>$ 900.000</b>. En el momento de la venta reconoce una cuenta por cobrar por ese valor. Diez días después, el cliente paga <b>$ 500.000</b>; por tanto, ingresa efectivo al negocio y la cuenta pendiente disminuye a <b>$ 400.000</b>. Cuando se reciba el saldo restante, se cancela la cuenta por cobrar, pero no se registra un nuevo ingreso por ventas, porque este ya fue reconocido cuando se realizó la operación.
-            p De manera similar, si la unidad compra insumos a crédito por <b>$ 1.200.000</b>, se genera una cuenta por pagar. Si posteriormente abona <b>$ 700.000</b>, se produce una salida de efectivo y la obligación disminuye hasta quedar en <b>$ 500.000</b>. Este seguimiento permite conocer simultáneamente los recursos disponibles y los compromisos pendientes. 
+            p.mb-3 Una unidad productiva vende mercancías a crédito por <b>$900.000</b>. En el momento de la venta reconoce una cuenta por cobrar por ese valor. Diez días después, el cliente paga <b>$500.000</b>; por tanto, ingresa efectivo al negocio y la cuenta pendiente disminuye a <b>$400.000</b>. Cuando se reciba el saldo restante, se cancela la cuenta por cobrar, pero no se registra un nuevo ingreso por ventas, porque este ya fue reconocido cuando se realizó la operación.
+            p De manera similar, si la unidad compra insumos a crédito por <b>$1.200.000</b>, se genera una cuenta por pagar. Si posteriormente abona <b>$700.000</b>, se produce una salida de efectivo y la obligación disminuye hasta quedar en <b>$500.000</b>. Este seguimiento permite conocer simultáneamente los recursos disponibles y los compromisos pendientes. 
       p(data-aos="fade-left") Diferenciar los ingresos y egresos de efectivo de las cuentas por cobrar y por pagar permite registrar con mayor precisión los movimientos financieros y controlar los recursos y las obligaciones del negocio.
       Separador
       //- Inicio Tema3.4
@@ -823,7 +823,7 @@
         .col-lg-10.bg-color-8.p-4.p-md-5
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-0 Una unidad productiva compra materias primas por <b>$ 750.000</b> y paga el valor mediante transferencia bancaria. La operación genera un aumento en el recurso adquirido y una disminución del dinero disponible en bancos. La operación se registra de la siguiente manera:          
+            p.mb-0 Una unidad productiva compra materias primas por <b>$750.000</b> y paga el valor mediante transferencia bancaria. La operación genera un aumento en el recurso adquirido y una disminución del dinero disponible en bancos. La operación se registra de la siguiente manera:          
           .row.justify-content-center.mb-4(data-aos="fade-right")
             .col-md-auto.col-lg-12
               .titulo-sexto.color-acento-contenido.mb-3
@@ -841,17 +841,17 @@
                     tr
                       td 12/08/2026
                       td Inventarios o materias primas
-                      td $ 750.000
+                      td $750.000
                       td —
                     tr
                       td 12/08/2026
                       td Bancos
                       td —
-                      td $ 750.000
+                      td $750.000
                     tr.fw-bold
                       td(colspan="2") Totales
-                      td $ 750.000
-                      td $ 750.000
+                      td $750.000
+                      td $750.000
           p.mb-0 <b>Concepto:</b> compra de materias primas pagada mediante transferencia bancaria.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
@@ -889,30 +889,30 @@
                       td 05/08/2026
                       td Venta de contado
                       td Efectivo
-                      td $ 500.000
+                      td $500.000
                       td Ingresos por ventas
-                      td $ 500.000
+                      td $500.000
                     tr
                       td 06/08/2026
                       td Compra de mercancías a crédito
                       td Inventarios
-                      td $ 700.000
+                      td $700.000
                       td Proveedores
-                      td $ 700.000
+                      td $700.000
                     tr
                       td 08/08/2026
                       td Pago parcial a proveedor
                       td Proveedores
-                      td $ 300.000
+                      td $300.000
                       td Bancos
-                      td $ 300.000
+                      td $300.000
                     tr
                       td 10/08/2026
                       td Recaudo de una cuenta por cobrar
                       td Efectivo
-                      td $ 250.000
+                      td $250.000
                       td Cuentas por cobrar
-                      td $ 250.000
+                      td $250.000
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -1005,35 +1005,35 @@
                       td 03/08/2026
                       td Venta de contado
                       td Efectivo
-                      td $ 650.000
+                      td $650.000
                       td Ingresos por ventas
-                      td $ 650.000
+                      td $650.000
                     tr
                       td 05/08/2026
                       td Compra a crédito
                       td Inventarios
-                      td $ 900.000
+                      td $900.000
                       td Proveedores
-                      td $ 900.000
+                      td $900.000
                     tr
                       td 08/08/2026
                       td Pago a proveedor
                       td Proveedores
-                      td $ 400.000
+                      td $400.000
                       td Bancos
-                      td $ 400.000
+                      td $400.000
                     tr
                       td 11/08/2026
                       td Recaudo de cartera
                       td Bancos
-                      td $ 350.000
+                      td $350.000
                       td Cuentas por cobrar
-                      td $ 350.000
+                      td $350.000
                     tr.fw-bold
                       td(colspan="3") Totales
-                      td $ 2.300.000
+                      td $2.300.000
                       td
-                      td $ 2.300.000
+                      td $2.300.000
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')

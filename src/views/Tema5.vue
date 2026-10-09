@@ -399,7 +399,7 @@
             .row.align-items-center
               .col-12.col-lg
                 h4 Transacción
-                p Identifica el hecho económico ocurrido. Por ejemplo, una compra de mercancías por <b>$ 700.000.</b>
+                p Identifica el hecho económico ocurrido. Por ejemplo, una compra de mercancías por <b>$700.000.</b>
               .col-12.col-lg-auto.mt-3.mt-lg-0
                 figure
                   img(src='@/assets/curso/temas/t1/tarjeta05_1.png').img125
@@ -448,7 +448,7 @@
         .col-lg-7.d-flex.flex-column.justify-content-between
           .row.align-items-center(data-aos="fade-left")
             .col
-              p.mb-2 El soporte proporciona información sobre la transacción, pero la cuenta utilizada depende de la naturaleza del hecho económico. Por ejemplo, una factura por <b>$ 500.000</b> puede corresponder a mercancías para la venta, materiales de producción, un equipo o un servicio contratado. Aunque exista el mismo tipo de soporte, el efecto contable será diferente.
+              p.mb-2 El soporte proporciona información sobre la transacción, pero la cuenta utilizada depende de la naturaleza del hecho económico. Por ejemplo, una factura por <b>$500.000</b> puede corresponder a mercancías para la venta, materiales de producción, un equipo o un servicio contratado. Aunque exista el mismo tipo de soporte, el efecto contable será diferente.
           .bg-color-2.p-3.mb-4
             p.mb-2 Antes del registro, conviene establecer <b>qué recibió o entregó el negocio, si el pago se realizó o quedó pendiente, qué recurso aumentó o disminuyó, si se generó una obligación y si la operación corresponde a un ingreso, costo o gasto.</b>
         .col-lg-5.d-flex
@@ -460,7 +460,7 @@
           //- Bloque del ejemplo aplicado
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-0 Una unidad económica compra mercancías por <b>$ 900.000</b>. Paga <b>$ 400.000</b> mediante transferencia bancaria y acuerda cancelar los <b>$ 500.000</b> restantes dentro de 30 días. La factura demuestra la adquisición, el comprobante bancario evidencia el pago parcial y el análisis de la operación permite identificar el inventario adquirido y la obligación pendiente.
+            p.mb-0 Una unidad económica compra mercancías por <b>$900.000</b>. Paga <b>$400.000</b> mediante transferencia bancaria y acuerda cancelar los <b>$500.000</b> restantes dentro de 30 días. La factura demuestra la adquisición, el comprobante bancario evidencia el pago parcial y el análisis de la operación permite identificar el inventario adquirido y la obligación pendiente.
           p.mb-4 La relación entre los documentos y los efectos de la operación se organiza así:
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -477,28 +477,28 @@
                   tbody
                     tr
                       td Transacción
-                      td Compra de mercancías por $ 900.000.
+                      td Compra de mercancías por $900.000.
                     tr
                       td Soporte principal
                       td Factura correspondiente a la adquisición.
                     tr
                       td Soporte del pago
-                      td Comprobante de transferencia por $ 400.000.
+                      td Comprobante de transferencia por $400.000.
                     tr
                       td Recurso que aumenta
-                      td Inventarios por $ 900.000.
+                      td Inventarios por $900.000.
                     tr
                       td Recurso que disminuye
-                      td Bancos por $ 400.000.
+                      td Bancos por $400.000.
                     tr
                       td Obligación que aumenta
-                      td Proveedores por $ 500.000.
+                      td Proveedores por $500.000.
                     tr
                       td Movimiento débito
-                      td Inventarios: $ 900.000.
+                      td Inventarios: $900.000.
                     tr
                       td Movimiento crédito
-                      td Bancos: $ 400.000 y proveedores: $ 500.000.
+                      td Bancos: $400.000 y proveedores: $500.000.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')

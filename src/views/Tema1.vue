@@ -586,30 +586,30 @@
                 tr
                   td 05/08/2026
                   td Saldo inicial
-                  td $ 500.000
+                  td $500.000
                   td —
-                  td $ 500.000
+                  td $500.000
                   td Registro inicial
                 tr
                   td 06/08/2026
                   td Venta de productos
-                  td $ 350.000
+                  td $350.000
                   td —
-                  td $ 850.000
+                  td $850.000
                   td Comprobante de venta
                 tr
                   td 07/08/2026
                   td Compra de insumos
                   td —
-                  td $ 180.000
-                  td $ 670.000
+                  td $180.000
+                  td $670.000
                   td Factura
                 tr
                   td 08/08/2026
                   td Pago de transporte
                   td —
-                  td $ 40.000
-                  td $ 630.000
+                  td $40.000
+                  td $630.000
                   td Recibo
       //- Fin Tabla
       .row.align-items-center.mb-4
@@ -679,7 +679,7 @@
                   img(src='@/assets/curso/temas/t1/tarjeta05_4.png').img125
               .col-12.col-lg.text-start
                 h4 Registro
-                p Se incorporan la fecha, el concepto y el valor. <br><b>Ejemplo:</b> compra de materiales por $ 250.000.
+                p Se incorporan la fecha, el concepto y el valor. <br><b>Ejemplo:</b> compra de materiales por $250.000.
             .row.align-items-center
               .col-12.col-lg
                 h4 Organización
@@ -848,3 +848,4 @@ export default {
 </script>
 
 <style lang="sass"></style>
+

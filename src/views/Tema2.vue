@@ -250,7 +250,7 @@
               p.bg-color-6.p-2.text-center.fw-bold Patrimonio = Activo − Pasivo
             .row.justify-content-center
             .col-lg-8
-              p Por ejemplo, si una unidad productiva posee recursos por $ 12.000.000 y tiene obligaciones pendientes por $ 4.500.000, su patrimonio corresponde a $ 7.500.000.
+              p Por ejemplo, si una unidad productiva posee recursos por $12.000.000 y tiene obligaciones pendientes por $4.500.000, su patrimonio corresponde a $7.500.000.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -355,8 +355,8 @@
           //- Bloque del ejemplo aplicado
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-3 Una unidad productiva registra durante el mes ingresos por <b>$ 5.000.000</b>, costos asociados con los productos vendidos por <b>$ 3.000.000</b> y gastos de funcionamiento por <b>$ 1.200.000.</b> El resultado corresponde a:
-            p.mb-0 <b>$ 5.000.000 – $ 3.000.000 – $ 1.200.000 = $ 800.000</b>
+            p.mb-3 Una unidad productiva registra durante el mes ingresos por <b>$5.000.000</b>, costos asociados con los productos vendidos por <b>$3.000.000</b> y gastos de funcionamiento por <b>$1.200.000.</b> El resultado corresponde a:
+            p.mb-0 <b>$5.000.000 – $3.000.000 – $1.200.000 = $800.000</b>
           p.mb-4 Para organizar los valores que intervienen en el cálculo, se presenta su relación:
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -373,16 +373,16 @@
                   tbody
                     tr
                       td Ingresos por ventas
-                      td $ 5.000.000
+                      td $5.000.000
                     tr
                       td Menos: costos asociados con las ventas
-                      td $ 3.000.000
+                      td $3.000.000
                     tr
                       td Menos: gastos de funcionamiento
-                      td $ 1.200.000
+                      td $1.200.000
                     tr.fw-bold
                       td Resultado del periodo
-                      td $ 800.000
+                      td $800.000
           p.mb-0 Diferenciar ingresos, costos y gastos permite clasificar las operaciones y comprender cómo cada una interviene en el resultado de la actividad económica.
       Separador
       //- Inicio Tema2.4
@@ -486,7 +486,7 @@
           //- Bloque del ejemplo aplicado
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-3 Una unidad productiva compra mercancías por <b>$ 600.000</b> y paga inmediatamente en efectivo. En esta operación aumenta el inventario, que corresponde a un activo, y disminuye el efectivo, que también es un activo. El aumento del inventario se registra por el débito y la disminución del efectivo por el crédito.
+            p.mb-3 Una unidad productiva compra mercancías por <b>$600.000</b> y paga inmediatamente en efectivo. En esta operación aumenta el inventario, que corresponde a un activo, y disminuye el efectivo, que también es un activo. El aumento del inventario se registra por el débito y la disminución del efectivo por el crédito.
           p.mb-4 La operación se organiza de la siguiente manera:
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -509,13 +509,13 @@
                       td Activo
                       td Aumenta
                       td Débito
-                      td $ 600.000
+                      td $600.000
                     tr
                       td Efectivo
                       td Activo
                       td Disminuye
                       td Crédito
-                      td $ 600.000
+                      td $600.000
           p.mb-0 Si la misma mercancía se adquiere a crédito, el análisis cambia: el inventario continúa aumentando y se registra por el débito, pero se genera una obligación con el proveedor, cuyo aumento se registra por el crédito. De igual manera, en una venta de contado aumenta el efectivo mediante un débito y el ingreso por ventas mediante un crédito.
       p(data-aos="fade-left") Estas situaciones evidencian la importancia de identificar la naturaleza de las cuentas antes de establecer cómo registrar una transacción.
             //- Título nivel 3 - Imagen
@@ -762,7 +762,7 @@
             p.mb-0 El siguiente ejemplo permite aplicar la secuencia de clasificación a una operación de compra a crédito:
           .bg-color-5.p-3            
             p.fw-bold Ejemplo aplicado 
-            p Si una productora campesina compra fertilizantes a crédito por <b>$ 500.000</b>, primero identifica la adquisición de un recurso destinado a su actividad y, al mismo tiempo, una obligación pendiente de pago. Así, deberá reconocer la cuenta correspondiente al recurso adquirido y la cuenta que representa la deuda con el proveedor. Este análisis permite clasificar la operación antes de realizar el registro contable.
+            p Si una productora campesina compra fertilizantes a crédito por <b>$500.000</b>, primero identifica la adquisición de un recurso destinado a su actividad y, al mismo tiempo, una obligación pendiente de pago. Así, deberá reconocer la cuenta correspondiente al recurso adquirido y la cuenta que representa la deuda con el proveedor. Este análisis permite clasificar la operación antes de realizar el registro contable.
             p Una operación puede afectar simultáneamente varias cuentas y grupos; por ello, la clasificación debe responder a su realidad económica y no solamente al documento que la respalda o al movimiento de efectivo.
         .col-12.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
           figure.mb-0
@@ -793,4 +793,3 @@ export default {
 </script>
 
 <style lang="sass"></style>
-
