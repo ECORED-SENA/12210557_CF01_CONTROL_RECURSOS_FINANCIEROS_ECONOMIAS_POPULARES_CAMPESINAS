@@ -475,27 +475,27 @@
                 ul.lista-ul.mb-0
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Cliente.
+                    span.mb-0 Cliente
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Fecha.
+                    span.mb-0 Fecha
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Producto o servicio.
+                    span.mb-0 Producto o servicio
                   li.d-flex.align-items-center.mb-3.mb-md-0
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Cantidad.
+                    span.mb-0 Cantidad
               .col-md-6
                 ul.lista-ul.mb-0
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Valor.
+                    span.mb-0 Valor
                   li.d-flex.align-items-center.mb-3
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Forma de pago.
+                    span.mb-0 Forma de pago
                   li.d-flex.align-items-center.mb-0
                     i.fas.fa-dollar-sign.color-acento-contenido.me-2
-                    span.mb-0 Soporte correspondiente.
+                    span.mb-0 Soporte correspondiente
         .col-lg-5
           figure
             img(src='@/assets/curso/temas/t3/img14.png', alt='').m-auto

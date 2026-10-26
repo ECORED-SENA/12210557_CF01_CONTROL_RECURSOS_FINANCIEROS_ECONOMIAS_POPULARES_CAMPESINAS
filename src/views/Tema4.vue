@@ -343,7 +343,7 @@
         .col-lg-12
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/dZ7Gn6stuEg?si=pSWaprzCnDPjmzGM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
           .pt-3.pb-5.px-5
