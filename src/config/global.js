@@ -486,13 +486,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Eliana Audrey Manchola Pérez ',
+          nombre: 'Paola Andrea Tello Zambrano',
           cargo: 'Experto temático ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
         },
         {
-          nombre: 'Paola Alexandra Moya ',
+          nombre: 'Paula Marcela Vidal Quintero',
           cargo: 'Evaluadora instruccional ',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila ',
