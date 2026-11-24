@@ -37,7 +37,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -177,7 +177,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -496,16 +496,16 @@
             p(data-aos="fade-left") El control de existencias permite conocer la cantidad disponible después de cada movimiento. Para efectuar este seguimiento puede utilizarse la siguiente relación:
             .row.justify-content-center.mb-3(data-aos="fade-right") 
               .col-lg-6  
-                p.bg-color-6.p-2.text-center.fw-bold Existencia final = Existencia inicial + Entradas − Salidas
+                p.bg-color-6.p-2.text-center.fw-bold Existencia final = Existencia inicial + Entradas - Salidas
             p(data-aos="fade-left") El siguiente ejemplo permite determinar la existencia disponible después de registrar entradas y salidas:
       .row.justify-content-center.mb-5(data-aos="fade-right")
         .col-lg-10.bg-color-8.p-4.p-md-5
           //- Bloque del ejemplo aplicado
           .bg-color-5.p-4.mb-4
             p.fw-bold.mb-3 Ejemplo aplicado
-            p.mb-3 Una unidad económica inicia con <b>50 unidades</b> de un producto, compra <b>30 unidades</b> y durante el periodo vende <b>35</b>.
+            p.mb-3 Una unidad económica inicia con <b>50 unidades</b> de un producto, compra <b>30 unidades</b> y durante el periodo vende <b>45</b>.
             p.mb-0 La existencia esperada corresponde a:
-            p.fw-bold.mt-2.mb-0 50 + 30 − 45 = 35 unidades
+            p.fw-bold.mt-2.mb-0 50 + 30 - 45 = 45 unidades
           p(data-aos="fade-left") La secuencia de movimientos se presenta así:
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
@@ -593,7 +593,7 @@
                         td 35
                         td 32
                         td -3
-                        td Revisar ventas, salidas y conteo
+                        td Revisar ventas, salidas y conteo.
                       tr
                         td Producto B
                         td 20
@@ -730,7 +730,7 @@
               h4.mb-2.text-white Impuestos asociados con las operaciones comerciales
               p.mb-0.text-white El documento desarrolla la clasificación de los impuestos y los criterios para identificar las responsabilidades tributarias aplicables a una unidad económica.
             .mt-3.mt-lg-0.ps-lg-4            
-              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_01_Impuestos_operaciones_comerciales.pdf')" target="_blank")
+              a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_01_Impuestos_operaciones_comerciales.pdf')" target="_blank")
                 span.fw-bold.me-2 Descargar
                 i.fas.fa-file-download
 </template>

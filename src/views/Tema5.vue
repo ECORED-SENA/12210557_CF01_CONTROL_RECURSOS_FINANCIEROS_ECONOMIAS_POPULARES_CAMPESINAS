@@ -599,7 +599,7 @@
       p(data-aos="fade-left") La factura electrónica de venta soporta de manera general las ventas de bienes y servicios, mientras que el documento equivalente electrónico aplica a determinadas operaciones autorizadas. En los casos permitidos, este último puede sustituirse por factura electrónica (DIAN, 2025). Las principales diferencias y semejanzas se presentan seguidamente:
       .row.bg-fondo-2(data-aos="fade-right")
         .col-12
-          .pt-3.pb-5.px-5
+          .pt-3.px-5
             //- Inicio Tabla
             .row.justify-content-center.mb-5(data-aos="fade-right")
               .col-md-auto.col-lg-12
@@ -649,14 +649,15 @@
                     h4.mb-2.text-white Factura electrónica y documento equivalente
                     p.mb-0.text-white El documento desarrolla la información asociada con la factura electrónica, los tipos de documentos equivalentes electrónicos y sus beneficios para el registro y control de las operaciones.
                   .mt-3.mt-lg-0.ps-lg-4            
-                    a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexos/Anexo_02_Factura_electronica_equivalente.pdf')" target="_blank")
+                    a.btn.btn-custom-download.w-buttons.d-flex.align-items-center.justify-content-center.p-3(:href="obtenerLink('/downloads/Anexo_02_Factura_electronica_equivalente.pdf')" target="_blank")
                       span.fw-bold.me-2 Descargar
                       i.fas.fa-file-download
             Separador
       //- Inicio Tema5.5
       .row
-        #t_5_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 5.5 Organización y control de los comprobantes
+        .col-12
+          #t_5_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+            h2 5.5 Organización y control de los comprobantes
       .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t5/img19.png')})` }")

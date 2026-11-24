@@ -21,7 +21,7 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img2.png')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 La actividad económica comprende acciones orientadas a producir, transformar, distribuir o comercializar bienes y prestar servicios para satisfacer necesidades y generar resultados económicos. Identificar la actividad principal de una unidad productiva facilita reconocer las operaciones que posteriormente deben registrarse y controlarse. La CIIU permite agrupar las actividades productivas según sus características (DANE, 2022).
+          p.mb-0 La actividad económica comprende acciones orientadas a producir, transformar, distribuir o comercializar bienes y prestar servicios para satisfacer necesidades y generar resultados económicos. Identificar la actividad principal de una unidad productiva facilita reconocer las operaciones que posteriormente deben registrarse y controlarse.
       //- Título nivel 3 - Imagen
       .titulo-tercer-nivel.mb-5.mt-3(data-aos="fade-right")
         img.titulo-tercer-nivel__icon(src='@/assets/curso/temas/bg/titulos.svg')
@@ -63,7 +63,7 @@
       //- Slideshow
       .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
-          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+          SlyderA(tipo="b" data-aos="fade-left").bg-white.p-4.tarjeta
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -848,4 +848,3 @@ export default {
 </script>
 
 <style lang="sass"></style>
-

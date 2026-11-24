@@ -227,7 +227,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/12210557_CF01_CFA.pdf',
+        download: 'downloads/12210557_CF01_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -477,7 +477,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06  <br> Responsable Ecosistema Virtual de Recursos Educativos Digitales  ',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -515,8 +515,8 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Alejandro Delgado Acosta ',
-          cargo: 'Intérprete lenguaje de señas  ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -528,13 +528,13 @@ export default {
         },
         {
           nombre: 'Juan Pablo Rojas Polania ',
-          cargo: 'Animador y productor audiovisual ',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada ',
-          cargo: 'Animador y productor audiovisual ',
+          cargo: 'Animador y productor multimedia',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
