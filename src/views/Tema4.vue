@@ -505,7 +505,7 @@
             p.fw-bold.mb-3 Ejemplo aplicado
             p.mb-3 Una unidad económica inicia con <b>50 unidades</b> de un producto, compra <b>30 unidades</b> y durante el periodo vende <b>45</b>.
             p.mb-0 La existencia esperada corresponde a:
-            p.fw-bold.mt-2.mb-0 50 + 30 - 45 = 45 unidades
+            p.fw-bold.mt-2.mb-0 50 + 30 - 45 = 35 unidades
           p(data-aos="fade-left") La secuencia de movimientos se presenta así:
           //- Tabla de contenido
           .row.justify-content-center.mb-5(data-aos="fade-right")
